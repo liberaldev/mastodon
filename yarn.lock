@@ -2551,6 +2551,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hotwired/turbo-rails@npm:^8.0.21":
+  version: 8.0.21
+  resolution: "@hotwired/turbo-rails@npm:8.0.21"
+  dependencies:
+    "@hotwired/turbo": "npm:^8.0.21"
+    "@rails/actioncable": "npm:>=7.0"
+  checksum: 10c0/530279ecf1cdf0a91396706e4b636f53d55892cc586214343b2b726bbaee327c81abca1aa051dbbf48dd51fd399c4bad390d4a252fec8c38ca50a51b07fbea06
+  languageName: node
+  linkType: hard
+
+"@hotwired/turbo@npm:^8.0.21":
+  version: 8.0.21
+  resolution: "@hotwired/turbo@npm:8.0.21"
+  checksum: 10c0/eee21c593525d2d68c223b200b0c842b0660d689100cba43481f1bd56eaf6ec9a91147aca154cf9f9eb44cebfcbd9421384b71c213ff7cbc8d605fd42bf8076a
+  languageName: node
+  linkType: hard
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"
@@ -2793,6 +2810,7 @@ __metadata:
     "@formatjs/intl-pluralrules": "npm:^5.4.4"
     "@gamestdio/websocket": "npm:^0.3.2"
     "@github/webauthn-json": "npm:^2.1.1"
+    "@hotwired/turbo-rails": "npm:^8.0.21"
     "@optimize-lodash/rollup-plugin": "npm:^6.0.0"
     "@react-spring/web": "npm:^9.7.5"
     "@reduxjs/toolkit": "npm:^2.0.1"
@@ -3286,6 +3304,13 @@ __metadata:
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: 10c0/4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
+  languageName: node
+  linkType: hard
+
+"@rails/actioncable@npm:>=7.0":
+  version: 8.1.200
+  resolution: "@rails/actioncable@npm:8.1.200"
+  checksum: 10c0/d24e9944723594db4847912bd73c7e1538c14a913ba0126265c88319c3b78857f985f6231248c097abf8a593a7c4347a25cded8f8d6afbff32cb9542f860e855
   languageName: node
   linkType: hard
 
