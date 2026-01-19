@@ -4,11 +4,12 @@
     %meta{ name: 'initialPath', content: request.path }
 
   %meta{ name: 'applicationServerKey', content: Rails.configuration.x.vapid.public_key }
+  %meta{ name: 'turbo-visit-control', content: 'reload' }
 
   = render_initial_state
   = vite_typescript_tag 'application.ts', crossorigin: 'anonymous'
 
-.notranslate.app-holder#mastodon{ data: { props: Oj.dump(default_props) } }
+.notranslate.app-holder#mastodon{ data: { props: Oj.dump(default_props), turbo: false } }
   %noscript
     = image_tag frontend_asset_path('images/logo.svg'), alt: 'Mastodon'
 
