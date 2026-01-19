@@ -5,7 +5,7 @@
   = render partial: 'shared/og'
 
 - unless omniauth_only?
-  = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+  = simple_form_for(resource, as: resource_name, url: session_path(resource_name), html: { data: { turbo: false } }) do |f|
     %h1.title= t('auth.sign_in.title', domain: site_hostname)
     %p.lead= t('auth.sign_in.preamble_html', domain: site_hostname)
     .fields-group
